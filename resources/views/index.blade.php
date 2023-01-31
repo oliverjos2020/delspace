@@ -14,31 +14,31 @@
     <!-- favicon -->
     <link rel="icon" href="images/fav-icon.ico">
     <!-- animation -->
-    <link rel="stylesheet" href="css/animate.min.css"/>css/animate.min.css
+    <link rel="stylesheet" href="{{asset('css/animate.min.css')}}"/>
     <!-- bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.min.css"/>css/bootstrap.min.css
+    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}"/>
     <!-- font-awesome icon -->
-    <link rel="stylesheet" href="css/font-awesome.min.css"/>css/font-awesome.min.css
+    <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}"/>
     <!-- magnific popup -->
-    <link rel="stylesheet" href="css/magnific-popup.min.css"/>css/magnific-popup.min.css
+    <link rel="stylesheet" href="{{asset('css/magnific-popup.min.css')}}"/>
     <!-- cube Portfolio -->
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css"/>css/jquery.fancybox.min.css
+    <link rel="stylesheet" href="{{asset('css/jquery.fancybox.min.css')}}"/>
     <!-- revolution slider -->
-    <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css"/>revolution/css/navigation.css
-    <link rel="stylesheet" type="text/css" href="revolution/css/settings.css"/>revolution/css/settings.css
+    <link rel="stylesheet" type="text/css" href="{{asset('revolution/css/navigation.css')}}"/>
+    <link rel="stylesheet" type="text/css" href="{{asset('revolution/css/settings.css')}}"/>
     <!-- owl carousel -->
-    <link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css" media="all"/>css/owl.carousel.min.css
-    <link href="css/owl.theme.default.min.css" rel="stylesheet" type="text/css" media="all"/>css/owl.theme.default.min.css
+    <link href="{{asset('css/owl.carousel.min.css')}}" rel="stylesheet" type="text/css" media="all"/>
+    <link href="{{asset('css/owl.theme.default.min.css')}}" rel="stylesheet" type="text/css" media="all"/>
     <!-- Swiper CSS File -->
-    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="{{asset('css/swiper.min.css')}}">
     <!-- component.css push nav-->
-    <link rel="stylesheet" type="text/css" href="css/component.css"/>
+    <link rel="stylesheet" type="text/css" href="{{asset('css/component.css')}}"/>
     <!-- bundle css -->
-    <link rel="stylesheet" href="css/core.css"/>
+    <link rel="stylesheet" href="{{asset('css/core.css')}}"/>
     <!-- style -->
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="{{asset('css/style.css')}}"/>
     <!-- Custom Style -->
-    <link rel="stylesheet" href="css/custom.css"/>
+    <link rel="stylesheet" href="{{asset('css/custom.css')}}"/>
 
 
 </head>
@@ -2343,48 +2343,48 @@
 
 
 <!-- javascript libraries -->
-<script src="js/jquery-3.2.1.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.appear.min.js"></script>
+<script src="{{asset('js/jquery-3.2.1.js')}}"></script>
+<script src="{{asset('js/bootstrap.min.js')}}"></script>
+<script src="{{asset('js/jquery.appear.min.js')}}"></script>
 <!-- owl carousel -->
-<script src="js/owl.carousel.min.js"></script>
+<script src="{{asset('js/owl.carousel.min.js')}}"></script>
 <!-- magnific popup -->
-<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
 <!-- flip -->
-<script src="js/jquery.flip.min.js"></script>
+<script src="{{asset('js/jquery.flip.min.js')}}"></script>
 <!-- fancybox -->
-<script src="js/jquery.fancybox.min.js"></script>
+<script src="{{asset('js/jquery.fancybox.min.js')}}"></script>
 <!-- Swiper Core Javascript -->
-<script src="js/swiper.min.js"></script>
+<script src="{{asset('js/swiper.min.js')}}"></script>
 <!-- Morphext js -->
-<script src="js/morphext.min.js"></script>
+<script src="{{asset('js/morphext.min.js')}}"></script>
 <!-- wow -->
-<script src="js/wow.js"></script>
+<script src="{{asset('js/wow.js')}}"></script>
 <!-- parallax -->
-<script src="js/parallaxie.min.js"></script>
+<script src="{{asset('js/parallaxie.min.js')}}"></script>
 <!-- particles -->
-<script src="js/particles.min.js"></script>
+<script src="{{asset('js/particles.min.js')}}"></script>
 <!-- isotope.pkgd.min js -->
-<script src="js/isotope.pkgd.min.js"></script>
+<script src="{{asset('js/isotope.pkgd.min.js')}}"></script>
 <!-- revolution -->
-<script src="revolution/js/jquery.themepunch.tools.min.js"></script>
-<script src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+<script src="{{asset('revolution/js/jquery.themepunch.tools.min.js')}}"></script>
+<script src="{{asset('revolution/js/jquery.themepunch.revolution.min.js')}}"></script>
 <!-- SLICEY ADD-ON FILES -->
-<script  src="revolution/js/revolution.addon.slicey.min.js"></script>
+<script  src="{{asset('revolution/js/revolution.addon.slicey.min.js')}}"></script>
 <!-- revolution extension -->
-<script src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
-<script src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-<script src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-<script src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-<script src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
-<script src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-<script src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-<script src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-<script src="revolution/js/extensions/revolution.extension.video.min.js"></script>
+<script src="{{asset('revolution/js/extensions/revolution.extension.actions.min.js')}}"></script>
+<script src="{{asset('revolution/js/extensions/revolution.extension.carousel.min.js')}}"></script>
+<script src="{{asset('revolution/js/extensions/revolution.extension.kenburn.min.js')}}"></script>
+<script src="{{asset('revolution/js/extensions/revolution.extension.layeranimation.min.js')}}"></script>
+<script src="{{asset('revolution/js/extensions/revolution.extension.migration.min.js')}}"></script>
+<script src="{{asset('revolution/js/extensions/revolution.extension.navigation.min.js')}}"></script>
+<script src="{{asset('revolution/js/extensions/revolution.extension.parallax.min.js')}}"></script>
+<script src="{{asset('revolution/js/extensions/revolution.extension.slideanims.min.js')}}"></script>
+<script src="{{asset('revolution/js/extensions/revolution.extension.video.min.js')}}"></script>
 <!-- Google Map Api -->
 <script src="http://maps.google.com/maps/api/js?key=AIzaSyAOBKD6V47-g_3opmidcmFapb3kSNAR70U"></script>
-<script src="js/map.js"></script>
+<script src="{{asset('js/map.js')}}"></script>
 <!-- setting -->
-<script src="js/main.js"></script>
+<script src="{{asset('js/main.js')}}"></script>
 </body>
 </html>
